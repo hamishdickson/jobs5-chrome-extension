@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Jobs5",
+  "description": "Jobs5 extension",
+  "version": "0.1",
+
+  "omnibox": {
+    "keyword": "job"
+  },
+
+  "background": {
+          "persistent": false,
+          "scripts": ["background.js"]
+  }
+}
