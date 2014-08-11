@@ -21,5 +21,5 @@ function navigate(url) {
 }
 
 chrome.omnibox.onInputEntered.addListener(function(text) {
-  navigate("http://localhost:3000/pages/bigDetail/" + text);
+  navigate("http://172.24.24.217:3070/detail/job/" + text);
 });
